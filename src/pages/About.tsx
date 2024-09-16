@@ -108,7 +108,7 @@ export default function About() {
               >
                 Our Vision
               </Heading>
-              <p className="text-gray-600">
+              <p className="text-gray-700">
                 Our vision is to be the leading platform for effortless bill
                 payments, empowering people to manage their finances easily and
                 efficiently while setting new standards for convenience and
