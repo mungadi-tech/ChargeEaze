@@ -136,7 +136,7 @@ export function Body() {
             <div className="grid gap-8 md:grid-cols-3">
               {[
                 {
-                  title: "5amas Group Expands Food Tech Portfolio",
+                  title: "Charge Eaze Expands Food Tech Portfolio",
                   date: "May 15, 2023",
                 },
                 {
@@ -144,7 +144,7 @@ export function Body() {
                   date: "April 28, 2023",
                 },
                 {
-                  title: "5amas Tech Division Partners with AI Startup",
+                  title: "Charge Eaze Division Partners with AI Startup",
                   date: "April 10, 2023",
                 },
               ].map((news, index) => (
