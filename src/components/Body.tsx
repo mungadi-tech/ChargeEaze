@@ -57,7 +57,7 @@ export function Body() {
             <div className="grid gap-8 md:grid-cols-4">
               {[
                 {
-                  title: "25/7 Customer Support",
+                  title: "24/7 Customer Support",
                   link: "",
                   final_text:
                     "Enjoy our Customer Service and have your issues resolved anytime- day and night.",
