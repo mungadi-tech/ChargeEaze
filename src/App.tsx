@@ -4,6 +4,8 @@ import About from "./pages/About";
 import Contact from "./pages/Contact";
 import Index from "./pages/Index";
 import AppDownload from "./pages/AppDownload";
+import Terms from "./pages/Terms";
+import Privacy from "./pages/Privacy";
 
 function App() {
   return (
@@ -13,6 +15,8 @@ function App() {
         <Route element={<Index />} path="/" />
         <Route element={<About />} path="/about" />
         <Route element={<Contact />} path="/contact" />
+        <Route element={<Terms />} path="/terms" />
+        <Route element={<Privacy />} path="/privacy" />
         <Route element={<AppDownload />} path="/appdownload" />
       </Routes>
     </>

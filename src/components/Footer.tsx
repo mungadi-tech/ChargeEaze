@@ -30,8 +30,8 @@ export function Footer(links: FooterProps) {
                 { link: "/about", title: "FAQ" },
                 { link: "/contact", title: "Contact Us" },
                 { link: "/resources", title: "Services" },
-                { link: "/career", title: "Terms of Use" },
-                { link: "/contact", title: "Privacy Policy" },
+                { link: "/terms", title: "Terms of Use" },
+                { link: "/privacy", title: "Privacy Policy" },
               ].map((link, index) => (
                 <li key={index}>
                   <Link
