@@ -16,7 +16,6 @@ export function NavBarSection() {
       <NavbarContent className="sm:hidden" justify="start">
         <NavbarMenuToggle />
       </NavbarContent>
-
       <NavbarBrand>
         <img src={logo} alt="" className="h-14" />
       </NavbarBrand>
