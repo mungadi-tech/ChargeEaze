@@ -48,9 +48,9 @@ export function Footer(links: FooterProps) {
             <h4 className="mb-4 text-lg font-semibold">Contact Us</h4>
             <p className="text-white">
               MEDALLION COURT PHASE ll Royalty Road 14 , House 8 Unit 3 Ikota
-              Villa Estate. Ikota Estate,
+              Villa Estate.Ikota Estate,
               <br />
-              Lagos (ALMAROOF COMPOUND) Almaroof Bus Stop.
+              Lagos
               <br />
               contact@chargeeaze.app
               <br />
