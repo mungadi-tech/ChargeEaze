@@ -30,17 +30,17 @@ export default function FuturisticContactAndSupport() {
 
   const faqs = [
     {
-      question: "What services does Charge Ease Bills Payment Hub offer?",
+      question: "What services does charge eaze Bills Payment Hub offer?",
       answer:
         "We offer a wide range of services including electricity bill payments, mobile recharge, internet and cable TV subscriptions, water bill payments, insurance premium payments, loan repayments, education payments, and digital wallet top-ups.",
     },
     {
-      question: "How secure is Charge Ease Bills Payment Hub?",
+      question: "How secure is charge eaze Bills Payment Hub?",
       answer:
         "Our platform prioritizes security by implementing the latest encryption technologies and data protection practices to ensure your transactions and personal information are safe.",
     },
     {
-      question: "Is there a mobile app for Charge Ease?",
+      question: "Is there a mobile app for charge eaze?",
       answer:
         "Yes, we offer a user-friendly mobile app, available on both iOS and Android, making bill payments and other transactions accessible anytime, anywhere.",
     },
@@ -57,7 +57,7 @@ export default function FuturisticContactAndSupport() {
     {
       question: "Can I track my payment history?",
       answer:
-        "Yes, you can easily view and track all your past transactions through your Charge Ease account dashboard, providing full visibility of your payment history.",
+        "Yes, you can easily view and track all your past transactions through your charge eaze account dashboard, providing full visibility of your payment history.",
     },
     {
       question: "How do I contact customer support?",
@@ -65,7 +65,7 @@ export default function FuturisticContactAndSupport() {
         "You can reach our support team via email, phone, or live chat for any questions or assistance regarding your account or transactions.",
     },
     {
-      question: "Is Charge Ease available nationwide?",
+      question: "Is charge eaze available nationwide?",
       answer:
         "Yes, our services are available across Nigeria, covering all major service providers and utility companies.",
     },

@@ -20,7 +20,7 @@ export function Body() {
             </Heading>
             <div className="mx-auto max-w-3xl text-center text-lg text-gray-600">
               <Text align={"center"}>
-                At Charge Ease, we understand that managing your finances can be
+                At charge eaze, we understand that managing your finances can be
                 overwhelming with numerous bills and payment deadlines. That's
                 why we specialize in providing a seamless solution for all your
                 electricity bills, mobile recharges, and various other payments.
@@ -29,7 +29,7 @@ export function Body() {
                 user-friendly platform is designed to make managing your
                 payments as easy as possible.
                 <br />
-                With Charge Ease, you can conveniently handle all your
+                With charge eaze, you can conveniently handle all your
                 transactions from one place, saving you time and effort. Whether
                 it's paying your utility bills, recharging your mobile phone, or
                 managing other regular payments, our system ensures that every

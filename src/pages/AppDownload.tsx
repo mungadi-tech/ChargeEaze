@@ -43,24 +43,24 @@ export default function AppDownload() {
           </Heading>
           <Container className="text-center">
             <Text color="gray" size={"2"}>
-              At Charge Ease, we understand that managing your finances can be
+              At charge eaze, we understand that managing your finances can be
               overwhelming with numerous bills and payment deadlines. That's why
               we specialize in providing a seamless solution for all your
               electricity bills, mobile recharges, and various other payments.
               Our mission is to simplify your financial tasks, ensuring that you
               stay on top of your bills and never miss a payment. <br />
               Our user-friendly platform is designed to make managing your
-              payments as easy as possible. With Charge Ease, you can
+              payments as easy as possible. With charge eaze, you can
               conveniently handle all your transactions from one place, saving
               you time and effort. Whether it's paying your utility bills,
               recharging your mobile phone, or managing other regular payments,
               our system ensures that every transaction is processed swiftly and
               securely. <br />
               We are committed to providing a hassle-free experience, so you can
-              focus on what matters most to you. By using Charge Ease, you can
+              focus on what matters most to you. By using charge eaze, you can
               enjoy peace of mind knowing that your payments are handled
               efficiently and on time. Say goodbye to the stress of missed
-              deadlines and complex payment processes. Trust Charge Ease Bills
+              deadlines and complex payment processes. Trust charge eaze Bills
               Payment Hub to keep your finances in order and simplify your life.
             </Text>
           </Container>

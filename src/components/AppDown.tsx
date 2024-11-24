@@ -12,7 +12,7 @@ export function AppDownloadSection() {
             transition={{ duration: 0.8 }}
           >
             <h2 className="text-3xl sm:text-4xl font-bold text-white mb-6">
-              Download the Charge Ease App
+              Download the charge eaze App
             </h2>
             <p className="text-xl text-blue-200 mb-8">
               Manage your bills on the go with our easy-to-use mobile app.
@@ -48,7 +48,7 @@ export function AppDownloadSection() {
             <div className="relative w-full max-w-md mx-auto">
               <img
                 src="/placeholder.svg?height=600&width=300"
-                alt="Charge Ease mobile app screenshot"
+                alt="charge eaze mobile app screenshot"
                 width={300}
                 height={600}
                 className="rounded-3xl shadow-2xl"
