@@ -47,7 +47,8 @@ export function Footer(links: FooterProps) {
           <div>
             <h4 className="mb-4 text-lg font-semibold">Contact Us</h4>
             <p className="text-white">
-              125, Isolo-Ijegun Road, Isheri-Oshun,
+              MEDALLION COURT PHASE ll Royalty Road 14 , House 8 Unit 3 Ikota
+              Villa Estate. Ikota Estate,
               <br />
               Lagos (ALMAROOF COMPOUND) Almaroof Bus Stop.
               <br />

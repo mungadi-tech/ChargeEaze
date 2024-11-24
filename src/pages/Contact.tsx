@@ -190,8 +190,9 @@ export default function FuturisticContactAndSupport() {
               <div className="flex items-center">
                 <MapPin className="mr-3 h-5 w-5 text-[var(--accent-11)]" />
                 <span>
-                  125, Isolo-Ijegun Road, Isheri-Oshun, Lagos (ALMAROOF
-                  COMPOUND) Almaroof Bus Stop.
+                  MEDALLION COURT PHASE ll Royalty Road 14 , House 8 Unit 3
+                  Ikota Villa Estate. Ikota Estate, Lagos (ALMAROOF COMPOUND)
+                  Almaroof Bus Stop.
                 </span>
               </div>
             </div>
