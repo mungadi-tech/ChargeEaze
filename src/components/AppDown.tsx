@@ -29,7 +29,8 @@ export function AppDownloadSection() {
                 Download for iOS
               </motion.a>
               <motion.a
-                href="#android-download"
+                href="/src/assets/apk/app-universal-release.apk"
+                download
                 className="inline-flex items-center justify-center px-6 py-3 border border-transparent text-base font-medium rounded-md text-white bg-green-600 hover:bg-green-700 transition duration-300 ease-in-out transform hover:scale-105"
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
@@ -39,7 +40,8 @@ export function AppDownloadSection() {
               </motion.a>
             </div>
           </motion.div>
-          <motion.div
+          <MobileAppShowcaseWithFreeImages />
+          {/* <motion.div
             className="relative"
             initial={{ opacity: 0, y: 50 }}
             animate={{ opacity: 1, y: 0 }}
@@ -56,7 +58,7 @@ export function AppDownloadSection() {
               <div className="absolute inset-0 bg-gradient-to-t from-blue-600 to-purple-600 opacity-20 rounded-3xl"></div>
             </div>
             <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-full h-full max-w-md max-h-[600px] bg-blue-500 rounded-full filter blur-3xl opacity-20 animate-pulse"></div>
-          </motion.div>
+          </motion.div> */}
         </div>
         <motion.div
           className="mt-16 bg-blue-800 bg-opacity-30 backdrop-blur-lg rounded-2xl p-8 shadow-2xl"
@@ -90,6 +92,63 @@ export function AppDownloadSection() {
           </div>
         </motion.div>
       </div>
+    </div>
+  );
+}
+
+function MobileAppShowcaseWithFreeImages() {
+  // --- Example Free Image URLs (Replace if needed, check licenses!) ---
+  // Note: These URLs might change or be removed by the provider. Self-hosting is best for production.
+
+  // Example Android (Pixel) Mockup URL (Source: Unsplash - Photo by Daniel Romero)
+  const androidMockupSrc =
+    "https://images.unsplash.com/photo-1601784551446-20c9e07cdbdb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=764&q=80";
+  // --- Adjust max width as needed for display ---
+  const mockupDisplayWidth = 280; // A reasonable max width for display
+
+  const altText = "Charge Ease mobile app concept shown on device";
+
+  return (
+    <div className="relative py-10">
+      {" "}
+      {/* Container for positioning pulse */}
+      <div className="flex flex-col md:flex-row justify-center items-start md:items-center gap-8 lg:gap-16">
+        {/* Android Mockup */}
+        <motion.div
+          className="relative"
+          initial={{ opacity: 0, y: 50, x: 30 }} // Animate from bottom-right
+          animate={{ opacity: 1, y: 0, x: 0 }}
+          transition={{
+            duration: 0.8,
+            delay: 0.4,
+            type: "spring",
+            stiffness: 50,
+          }} // Staggered delay
+        >
+          <div
+            className={`relative w-full max-w-[${mockupDisplayWidth}px] mx-auto`}
+          >
+            <img
+              src={androidMockupSrc}
+              alt={`${altText} (Android)`}
+              width={mockupDisplayWidth} // Width hint
+              // height={mockupHeight} // Remove or set to 'auto'
+              className="rounded-3xl shadow-2xl object-contain w-full h-auto"
+            />
+            {/* Gradient Overlay */}
+            <div className="absolute inset-0 bg-gradient-to-t from-blue-600 to-purple-600 opacity-20 rounded-3xl pointer-events-none"></div>
+          </div>
+        </motion.div>
+      </div>
+      {/* Shared Background Pulse Effect - Positioned behind the devices */}
+      <div
+        className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-full h-full max-w-xl md:max-w-3xl max-h-[650px] bg-blue-500 rounded-full filter blur-3xl opacity-15 animate-pulse -z-10"
+        aria-hidden="true" // Hide from screen readers
+      ></div>
+      {/* Optional: Add attribution if required by image license */}
+      {/* <div className="text-center text-xs text-gray-500 mt-4">
+        Phone mockups by <a href="[Link to photographer profile on Unsplash]" target="_blank" rel="noopener noreferrer">Photographer Name</a> on Unsplash
+      </div> */}
     </div>
   );
 }
