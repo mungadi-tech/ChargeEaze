@@ -29,7 +29,7 @@ export function AppDownloadSection() {
                 Download for iOS
               </motion.a>
               <motion.a
-                href="/src/assets/apk/app-universal-release.apk"
+                href="/src/assets/apk/ChargeEaze.apk"
                 download
                 className="inline-flex items-center justify-center px-6 py-3 border border-transparent text-base font-medium rounded-md text-white bg-green-600 hover:bg-green-700 transition duration-300 ease-in-out transform hover:scale-105"
                 whileHover={{ scale: 1.05 }}
@@ -41,24 +41,6 @@ export function AppDownloadSection() {
             </div>
           </motion.div>
           <MobileAppShowcaseWithFreeImages />
-          {/* <motion.div
-            className="relative"
-            initial={{ opacity: 0, y: 50 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.8, delay: 0.2 }}
-          >
-            <div className="relative w-full max-w-md mx-auto">
-              <img
-                src="/placeholder.svg?height=600&width=300"
-                alt="Charge Ease mobile app screenshot"
-                width={300}
-                height={600}
-                className="rounded-3xl shadow-2xl"
-              />
-              <div className="absolute inset-0 bg-gradient-to-t from-blue-600 to-purple-600 opacity-20 rounded-3xl"></div>
-            </div>
-            <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-full h-full max-w-md max-h-[600px] bg-blue-500 rounded-full filter blur-3xl opacity-20 animate-pulse"></div>
-          </motion.div> */}
         </div>
         <motion.div
           className="mt-16 bg-blue-800 bg-opacity-30 backdrop-blur-lg rounded-2xl p-8 shadow-2xl"
